@@ -74,3 +74,44 @@ h1{
     font-weight: bold;
 }
 
+.information_section{
+    padding: 75px 150px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 75px;
+}
+
+.information_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.square{
+    border-color: #3882F6;
+    height: 175px;
+    width: 175px;
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+.information_subtitle{
+    font-size: 15px;
+    color: darkgrey;
+}
+
