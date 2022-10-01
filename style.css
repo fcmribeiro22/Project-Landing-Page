@@ -115,3 +115,88 @@ h2{
     color: darkgrey;
 }
 
+.quote_section{
+    padding: 100px 350px;
+    background-color: #E5E7EB;
+
+}
+
+.quote_para {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+
+}
+
+.author_para{
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
+}
+
+.footer_section{
+    padding: 100px 350px;
+
+}
+
+
+.footer_container{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    background-color:#3882F6;
+    border-radius: 20px;
+    justify-content: space-around;
+
+}
+
+.text_footer{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.bold_para,.small_para{
+    margin: 0;
+    color: white;
+}
+
+.bold_para{
+    font-weight: bold;
+
+}
+
+.small_para{
+    font-size: 10px;
+}
+
+.button_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonfooterstyle{
+    width: 120px;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882F6;
+    color:white;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.odin_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 15px;
+}
+
